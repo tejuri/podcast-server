@@ -1,0 +1,31 @@
+# Global :
+.idea
+*.iml
+*.DS_Store
+node_modules
+logs
+target
+.gradle
+
+# Front End in AngularJS :
+frontend-angularjs/www/fonts/
+frontend-angularjs/www/jspm_packages
+frontend-angularjs/node
+frontend-angularjs/**/*.css
+
+
+# Front End in Angular :
+frontend-angular/dist
+frontend-angular/coverage
+
+# Back End
+Backend/lib/
+Backend/**/application.yml
+Backend/build
+Backend/lan.dk.podcastserver.*
+Backend/etc
+
+
+
+/lan.dk.podcastserver.entity.Item/
+
